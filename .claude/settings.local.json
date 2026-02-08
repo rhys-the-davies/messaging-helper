@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(/Users/rhysdavies/Documents/messaging-helper/.npmrc << 'EOF'\n# Recommended settings for npm\nsave-exact=true\nEOF)"
+      "Bash(/Users/rhysdavies/Documents/messaging-helper/.npmrc << 'EOF'\n# Recommended settings for npm\nsave-exact=true\nEOF)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }

@@ -1,0 +1,38 @@
+{
+  "companyName": "Your Company",
+  "primaryColor": "#0070f3",
+  "tagline": "Get help creating brand-consistent content",
+  "welcomeMessage": "I'm here to help you create content that aligns with your brand guidelines. What would you like to write today?",
+  "suggestions": [
+    {
+      "icon": "✉️",
+      "text": "Customer emails",
+      "description": "Professional and warm"
+    },
+    {
+      "icon": "📢",
+      "text": "Product announcements",
+      "description": "Clear and exciting"
+    },
+    {
+      "icon": "✨",
+      "text": "Marketing copy",
+      "description": "Persuasive and on-brand"
+    },
+    {
+      "icon": "💬",
+      "text": "Internal comms",
+      "description": "Clear and aligned"
+    },
+    {
+      "icon": "📱",
+      "text": "Social media",
+      "description": "Engaging and shareable"
+    },
+    {
+      "icon": "📝",
+      "text": "Blog posts",
+      "description": "Informative and compelling"
+    }
+  ]
+}

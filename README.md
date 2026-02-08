@@ -1,14 +1,14 @@
-# Brand Messaging Helper
+# Brand messaging helper
 
-> An open-source template that helps teams create brand-consistent content with AI assistance.
+> An open-source template to help teams create brand-consistent content with AI assistance.
 
-Deploy your own instance in minutes, customize it with your brand guidelines, and help your team write content that stays on-brand every time.
+Deploy your own instance, customise it with your brand, and help your team write content that stays on-brand.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/brand-messaging-helper&env=ANTHROPIC_API_KEY&envDescription=Get%20your%20API%20key%20from%20Anthropic&envLink=https://console.anthropic.com/settings/keys)
+I ... [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/brand-messaging-helper&env=ANTHROPIC_API_KEY&envDescription=Get%20your%20API%20key%20from%20Anthropic&envLink=https://console.anthropic.com/settings/keys)
 
-## What This Does
+## What this does
 
-This is a simple chat interface powered by Claude (Anthropic's AI) that helps your team create content that aligns with your brand guidelines. It reads your brand voice, tone, and messaging guidelines from markdown files and uses them to provide AI-powered writing assistance.
+It's a simple chat interface powered by Claude (Anthropic's AI) that helps you create messaging to align with your brand guidelines. It reads your brand voice, tone, and messaging guidelines from markdown files and uses them to provide AI-powered writing assistance.
 
 **Perfect for:**
 - Marketing teams ensuring consistent messaging
@@ -24,6 +24,38 @@ This is a simple chat interface powered by Claude (Anthropic's AI) that helps yo
 - ✅ **Clean Chat Interface**: Simple, responsive UI that works everywhere
 - ✅ **Streaming Responses**: Fast, real-time AI assistance
 - ✅ **Private**: Your own instance, your own API key, your own data
+
+_That said - it might not be best for you._
+
+## When to use this vs Claude Pro/Projects
+
+**Use Claude Pro/Projects if:**
+- You're a small team (< 20 people) with easy access to their subscription services
+- You need full conversation history and collaboration features
+- You want zero maintenance and instant setup
+- Cost isn't a primary concern ($30/user/month)
+
+**Use this custom messaging helper if:**
+- **Geographic access barriers** - Team members in regions where Claude Pro is restricted or requires a VPN
+- **Payment complexity** - Setting up individual subscriptions is difficult (no corporate cards, currency issues)
+- **Cost at scale** - You have 50+ users and API costs ($0.014/message) are significantly cheaper than subscriptions
+- **Custom workflows** - You need specific integrations, custom UI, or a white-label deployment
+- **Embedded use case** - You want to build this into your product or client deliverables - this could be a good starting point
+- **Simple use case** - Your team primarily needs single-response content generation (not long conversations)
+
+**Real-world example:** 
+A textile company with 8 team members across Vietnam, Bangladesh, and China needed consistent brand messaging. Individual Claude Pro subscriptions had payment barriers and potential access restrictions. A single deployed app with one API key solved the access problem and cost ~$20/month instead of $240/month.
+
+**Cost comparison:**
+
+| Team Size | Claude Pro | Custom App (estimated) | Savings |
+|-----------|-----------|------------------------|---------|
+| 5 users   | $150/mo   | $10-20/mo              | ~$130   |
+| 10 users  | $300/mo   | $20-40/mo              | ~$260   |
+| 25 users  | $750/mo   | $50-100/mo             | ~$650   |
+| 50 users  | $1,500/mo | $100-200/mo            | ~$1,300 |
+
+*Assumes Claude Team plan at $30/user/month and ~5 messages/user/day*
 
 ## Quick Start (5 Minutes)
 
